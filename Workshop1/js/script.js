@@ -40,7 +40,7 @@ $(document).ready(function () {
         },
         toolbar: ["<input type=text class=form-control id='FieldFilter' placeholder='我想要找...'>"],
         columns: [
-            { command: "刪除" },
+            { command: "刪除" ,width: "100px"},
             { field: "BookId", title: "書籍編號", width: "120px" },
             { field: "BookName", title: "書籍名稱", width: "180px" },
             { field: "BookCategory", values: bookCategoryList, title: "書籍種類", width: "120px" },
